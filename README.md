@@ -97,11 +97,11 @@ O sistema analisa os dados e gera alertas automaticamente, como:
 
 Foram aplicadas as seguintes técnicas:
 
-- ✔ Remoção de dados duplicados  
-- ✔ Tratamento de valores ausentes (média e moda)  
-- ✔ Padronização de colunas  
-- ✔ Remoção de outliers (IQR)  
-- ✔ Criação de novas variáveis (feature engineering)  
+- Remoção de dados duplicados  
+- Tratamento de valores ausentes (média e moda)  
+- Padronização de colunas  
+- Remoção de outliers (IQR)  
+- Criação de novas variáveis (feature engineering)  
 
 ---
 
