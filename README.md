@@ -1,18 +1,18 @@
-# 🧠 Dashboard de Saúde Mental de Estudantes
+# Dashboard de Saúde Mental de Estudantes
 
-## 📊 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto consiste em um **dashboard interativo desenvolvido com Python e Streamlit**, com o objetivo de analisar a relação entre:
 
-- Uso de redes sociais 📱  
-- Qualidade do sono 😴  
-- Saúde mental 🧠  
+- Uso de redes sociais  
+- Qualidade do sono   
+- Saúde mental   
 
 A aplicação permite explorar os dados de forma dinâmica por meio de filtros e visualizações, auxiliando na identificação de padrões e possíveis impactos no bem-estar dos estudantes.
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 O projeto foi desenvolvido para aplicar conceitos de:
 
@@ -24,7 +24,7 @@ O projeto foi desenvolvido para aplicar conceitos de:
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 O dataset utilizado contém informações sobre estudantes, incluindo:
 
@@ -39,9 +39,9 @@ O dataset utilizado contém informações sobre estudantes, incluindo:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-- Python 🐍  
+- Python 
 - Pandas  
 - Matplotlib  
 - Seaborn  
@@ -49,51 +49,51 @@ O dataset utilizado contém informações sobre estudantes, incluindo:
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
-### 🎛️ Filtros Interativos
+### Filtros Interativos
 
-- 🌍 País  
-- 👤 Gênero  
-- 🎓 Nível acadêmico  
-- 📲 Plataforma  
-- ⚠️ Impacto geral  
+- País  
+- Gênero  
+- Nível acadêmico  
+- Plataforma  
+- Impacto geral  
 
 ---
 
-### 📊 Visualizações
+### Visualizações
 
 O dashboard apresenta diversos gráficos, incluindo:
 
-- 📱 Uso de redes sociais vs saúde mental  
-- 😴 Sono vs saúde mental  
-- ⚠️ Distribuição do impacto geral  
-- 🎓 Uso por nível acadêmico  
-- 🌍 Comparação entre países  
-- 🔥 Heatmap de correlação  
+- Uso de redes sociais vs saúde mental  
+- Sono vs saúde mental  
+- Distribuição do impacto geral  
+- Uso por nível acadêmico  
+- Comparação entre países  
+- Heatmap de correlação  
 
 ---
 
-### 📌 Indicadores (KPIs)
+### Indicadores (KPIs)
 
-- 👥 Total de estudantes  
-- 📱 Média de uso diário  
-- 😴 Média de sono  
-- 🧠 Média de saúde mental  
+- Total de estudantes  
+- Média de uso diário  
+- Média de sono  
+- Média de saúde mental  
 
 ---
 
-### 🤖 Insights Automáticos
+### Insights Automáticos
 
 O sistema analisa os dados e gera alertas automaticamente, como:
 
-- ⚠️ Baixa média de sono  
-- 📱 Uso excessivo de redes sociais  
-- 🚨 Níveis preocupantes de saúde mental  
+- Baixa média de sono  
+- Uso excessivo de redes sociais  
+- Níveis preocupantes de saúde mental  
 
 ---
 
-## 🧹 Tratamento de Dados
+## Tratamento de Dados
 
 Foram aplicadas as seguintes técnicas:
 
@@ -105,12 +105,12 @@ Foram aplicadas as seguintes técnicas:
 
 ---
 
-## ▶️ Como Executar o Projeto
+## Como Executar o Projeto
 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/LuisMarciao/ProjetoEstatistica.git
 cd seu-repositorio
 ```
 
@@ -130,8 +130,8 @@ streamlit run app.py
 
 O dashboard permite uma análise visual clara e interativa dos dados, facilitando a identificação de padrões e tomada de decisão.
 
-### 💡 Possíveis Melhorias Futuras
-- 🤖 Machine Learning para previsão de saúde mental  
-- 🌐 Deploy online do dashboard  
-- 📈 Gráficos interativos com Plotly  
-- 🎨 Interface mais avançada  
+### Possíveis Melhorias Futuras
+- Machine Learning para previsão de saúde mental  
+- Deploy online do dashboard  
+- Gráficos interativos com Plotly  
+- Interface mais avançada  
