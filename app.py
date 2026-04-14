@@ -17,16 +17,6 @@ df = load_data()
 # remover duplicados
 df = df.drop_duplicates()
 
-# padronizar nomes das colunas
-df.columns = df.columns.str.lower().str.strip()
-
-# padronizar textos
-colunas_texto = ["gender", "academic_level", "country", "most_used_platform"]
-
-for col in colunas_texto:
-    if col in df.columns:
-        df[col] = df[col].astype(str).str.strip().str.capitalize()
-
 # tratamento de nulos
 for col in df.columns:
     if df[col].dtype == "object":
@@ -34,17 +24,12 @@ for col in df.columns:
     else:
         df[col] = df[col].fillna(df[col].median())
 
-# converter colunas numericas
 colunas_numericas = [
     "age",
     "avg_daily_usage_hours",
     "sleep_hours_per_night",
     "mental_health_score"
 ]
-
-for col in colunas_numericas:
-    if col in df.columns:
-        df[col] = pd.to_numeric(df[col], errors="coerce")
 
 # remover valores invalidos
 df = df[(df["sleep_hours_per_night"] >= 0) & (df["sleep_hours_per_night"] <= 24)]
