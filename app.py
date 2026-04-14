@@ -17,12 +17,16 @@ df = load_data()
 # remover duplicados
 df = df.drop_duplicates()
 
+# padronizar nomes das colunas
+df.columns = df.columns.str.lower().str.strip()
+
 # tratamento de nulos
 for col in df.columns:
     if df[col].dtype == "object":
         df[col] = df[col].fillna(df[col].mode()[0])
     else:
         df[col] = df[col].fillna(df[col].median())
+
 
 colunas_numericas = [
     "age",
